@@ -57,9 +57,6 @@ int main()
     for(int row=0;row<R;row++)
     {
         rowSum[row][0]=0;
-    }
-    for(int row=0;row<R;row++)
-    {
         for(int col=1;col<=C;col++)
         {
             int temp;
